@@ -1,0 +1,104 @@
+-----------------------------------------------------Novo Arquivo Classe-------------------------------------------
+
+classe ControleRemoto implementa Controlador
+
+	//Atributos
+	
+	privado inteiro volume
+	privado logico ligado
+	privado logico tocando
+	
+	
+	//Sobrescrevendo Métodos
+	
+	publico Metodo ligar()
+		setLigado(verdadeiro)
+	fimMetodo
+	
+	publico Metodo desligar()
+		setLigado(falso)
+	fimMetodo
+	
+	publico Metodo abrirMenu()
+		Escreva(getLigado())
+		Escreva(getVolume())
+		Para i = 0 ate getVolume() passo 10 faca
+			Escreva("|")
+		fimPara
+		Escreva(getTocando())
+	fimMetodo
+	
+	publico Metodo fecharMenu()
+		Escreva("Fechando Menu...")
+	fimMetodo
+	
+	publico Metodo maisVolume()
+		se (getLigado()) entao
+			setVolume(getVolume() + 1)
+		fimSe
+	fimMetodo
+	
+	publico Metodo menosVolume()
+		se (getLigado()) entao
+			setVolume(getVolume() - 1)
+		fimSe
+	fimMetodo
+	
+	publico Metodo ligarMudo()
+		se (getLigado() e getVolume()> 0) entao
+			setVolume(0)
+		fimSe
+	fimMetodo
+	
+	publico Metodo desligarMudo()
+		se (getLigado() e getVolume() == 0) entao 
+			setVolume(50)
+		fimSe
+	fimMetodo
+	
+	publico Metodo play()
+		se (getLigado() e nao getTocando()) entao 
+			setTocando(verdadeiro)
+		fimSe
+	fimMetodo
+	
+	publico Metodo pause()
+		se (getLigado() e getTocando()) entao 
+			setTocando(verdadeiro)
+		fimSe
+	fimMetodo
+	
+	
+	//Métodos Especiais
+	
+	publico Metodo Construtor()
+		volume = 50
+		ligado = falso
+		tocando = falso 
+	fimMetodo 
+	
+	privado Metodo getVolume()
+		retorne volume
+	fimMetodo
+	
+	privado Metodo getLigado()
+		retorne volume
+	fimMetodo
+	
+	privado Metodo getTocando()
+		retorne volume
+	fimMetodo
+	
+	privado Metodo setVolume(v:inteiro)
+		volume = v
+	fimMetodo
+	
+	privado Metodo setLigado(l:logico)
+		ligado = l
+	fimMetodo
+	
+	privado Metodo setTocando(t:logico)
+		tocando = t
+	fimMetodo
+	
+FimClasse 

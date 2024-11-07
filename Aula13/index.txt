@@ -1,0 +1,13 @@
+// Principal
+
+c = novo cachorro()
+
+c.reagir("Olá")
+c.reagir("Vai apanhar")
+c.reagir(11,45)//reagindo conforme a hora
+c.reagir(21,00)//reagindo conforme a hora
+c.reagir(verdadeiro)//Reagindo a dono
+c.reagir(falso)//reagindo a dono
+c.raegir(2,12.5)// Reagindo idade e peso
+c.reagir(17,4.5)//idade e peso
+

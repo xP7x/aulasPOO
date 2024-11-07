@@ -1,0 +1,10 @@
+
+classe Visitante estende Pessoa
+	(...)	
+fimClasse
+
+	
+	
+
+	
+

@@ -1,0 +1,24 @@
+Pilares da POO 
+
+Encapsulamento 
+Herança
+Polimorfismo 
+
+Encapsulamento serve para "resguardar" o conteúdo e gerar uma padronização de "capsulas".
+Um software encapsulado, é um software que tem o mesmo padrão
+
+Encapsular é ocultar partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior.
+
+Interface é uma lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com um objeto dessa classe. 
+Interface é a forma como o usuário lida com o objeto encapsulado.
+
+No encapsulamento, todos os atributos de classe são privados ou protegidos, nunca públicos
+-----------------------------------------
+Vantagem em encapsular: 
+*Tornar mudanças invisíveis 
+*Facilitar reutilização do código
+*Reduzir os efeitos colaterais 
+----------------------------------------
+
+
+

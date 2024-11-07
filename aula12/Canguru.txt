@@ -1,0 +1,13 @@
+
+classe Canguru estende Mamifero
+
+	publico metodo usarBolsa()
+		escreva("O canguro está usando a bolsa!")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo locomover()
+		escreva("Saltando")
+	fimMetodo
+fimClasse
+

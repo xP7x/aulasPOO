@@ -1,0 +1,30 @@
+classe Aluno estende Pessoa
+	
+	//Atributos
+	privado matr : inteiro
+	privado curso: caractere
+	
+	
+	//Métodos
+	publico metodo cancelarMatr()
+	(...)
+	fimMetodo
+	
+	//Métodos Especiais
+	publico metodo getMatr()
+	(...)
+	fimMetodo
+	
+	publico metodo setMatr()
+	(...)
+	fimMetodo
+	
+	publico metodo getCurso()
+	(...)
+	fimMetodo
+	
+	publico metodo setCurso()
+	(...)
+	fimMetodo
+
+fimClasse

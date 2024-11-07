@@ -1,0 +1,27 @@
+
+
+Classe Peixe estende Animal
+	privado corEscama: Caractere
+	
+	
+	publico metodo soltarBolha()
+		escreva("Soltou uma Bolha")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo locomover()
+		escreva("Nadando")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo alimentar()
+		escreva("comendo substancias")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo emitirSom()
+		escreva("Peixe não faz som")
+	fimMetodo
+FimClasse
+	
+

@@ -1,0 +1,48 @@
+ 
+ Classe Cachorro estende Lobo
+ 
+ 	publico metodo reagir(frase: caractere)
+ 		se(frase ="Toma comida" ou frase = "Olá")
+ 			escreva("Abanar e Latir")
+ 		senao
+ 			escreva("Rosnar")
+ 		fimSe
+ 	fimMetodo
+ 	
+ 	publico metodo reagir(hora,min: Inteiro)
+ 		se(hora < 12)
+ 			escreva("Abanar")
+ 		senaoSe(hora >= 18)
+ 			escreva("Ignorar")
+ 		senao
+ 			escreva("Abanar e Latir")
+ 	fimMetodo
+ 	
+ 	publico metodo reagir(dono: Logico)
+ 		se (dono = verdadeiro)
+ 			escreva("Abanar")
+ 		senao
+ 			escreva("Rosnar e Latir")
+ 		fimSe
+ 	fimMetodo
+ 	
+ 	publico metodo reagir(idade: inteiro
+ 					peso : real )
+ 					
+ 		se(idade < 5)
+ 			se(peso<10)
+ 				escreva("Abanar")
+ 			senao
+ 				escreva("Latir")
+ 			fimSe
+ 		senao
+ 			se(peso<10)
+ 				escreva("Rosnar")
+ 			senao
+ 				escreva("Ignorar")
+ 			fimSe
+ 					
+ 	fimMetodo
+ 	
+ fimClasse
+ 

@@ -1,0 +1,7 @@
+
+classe Tartaruga estende Reptil
+	
+	@sobrepor
+	publico metodo locomover()
+		escreva("Lentamente")
+	fimMetodo

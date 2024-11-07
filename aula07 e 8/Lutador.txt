@@ -1,0 +1,145 @@
+----------------Novo Arquivo Classe--------------
+
+Classe Lutador
+	
+	//Atributos
+	
+	privado nome: Caractere
+	privado nacionalidade : Caractere
+	privado idade : Real
+	privado altura: Real 
+	privado peso : Real 
+	privado catergoria: Caractere
+	privado vitorias : Inteiro
+	privado derrotas : Inteiro
+	privado empates: Inteiro
+	
+	//Métodos
+	
+	publico metodo apresentar()
+		Escreva("Lutador: ", getNome())
+		Escreva("Origem: ", getNacionalidade())
+		Escreva(getIdade(), "  anos")
+		Escreva(getAltura(), "  m de altura")
+		Escreva("Pesando ", getPeso(), "Kg")
+		Escreva("Ganhou: ", getVitorias())
+		Escreva("Perdeu: ", getDerrotas())
+		Escreva("Empatou: ", getEmpates())
+	fimMetodo
+	
+	publico metodo status()
+		Escreva(getNome())
+		Escreva("é um peso ", getCategoria())
+		Escreva(getVitorias(), " Vitórias")
+		Escreva(getDerrotas(), " Derrotas")
+		Escreva(getEmpates(), " Empates")
+	fimMetodo
+	
+	publico metodo ganharLuta()
+		setVitorias(getVitorias()+1)
+	fimMetodo
+	
+	publico metodo perderLuta()
+		setDerrotas(getDerrotas() +1)
+	fimMetodo
+	
+	publico metodo empatarLuta()
+		setEmpates(getEmpates() + 1)
+	fimMetodo
+	
+	//Métodos Especiais
+	
+	publico metodo construtor(
+		setNome(no)	     no: Caractere
+		setNacionalidade(na) na: Caractere
+		setIdade(id)	     id: Inteiro
+		setAltura(al)	     al: Real 
+		setPeso(pe)	     pe: Real 
+		setVitorias(vi)	     vi: Inteiro
+		setDerrotas(de)	     de: Inteiro
+		setEmpates(em)	     em: Inteiro)
+	fimMetodo
+	
+	publico metodo getNome()
+		retorne nome
+	fimMetodo
+	
+	publico metodo setNome(no:caractere)
+		nome = no
+	fimMetodo
+	
+	publico metodo getNacionalidade()
+		retorne nacionalidade
+	fimMetodo 
+	
+	publico metodo setNacionalidade(na:caractere)
+		nacionalidade = na 
+	fimMetodo
+	
+	publico metodo getIdade()
+		retorne idade
+	fimMetodo
+	
+	publico metodo setIdade(id:inteiro)
+		idade = id
+	fimMetodo 
+	
+	publico metodo getAltura()
+		retorne altura
+	fimMetodo
+	
+	publico metodo setAltura(al:real)
+		altura = al
+	fimMetodo
+	
+	publico metodo getPeso()
+		retorne peso
+	fimMetodo
+	
+	publico metodo setPeso(pe: caractere)
+		peso = pe
+		setCategoria()
+	fimMetodo
+	
+	publico metodo getCategoria()
+		retorne categoria
+	fim metodo 
+	
+	publico metodo setCategoria()
+		se(peso<52.2) entao 
+			categoria = "Inválido"
+		senao se (peso<= 70.3) entao
+			categoria = "Leve"
+		senao se (peso<= 83.9) entao
+			categoria = "Médio"
+		senao se (peso<= 120.2) entao
+			categoria = "Pesado"
+		senao
+			categoria = "Invalido"
+		fimSe
+	fimMetodo
+	
+	publico metodo getVitorias()
+		retorne vitorias
+	fimMetodo
+	
+	publico metodo setVitorias(vi: inteiro)
+		vitorias = vi
+	fimMetodo
+	
+	publico metodo getDerrotas()
+		retorne derrotas
+	fimMetodo
+	
+	publico metodo setDerrotas(de:inteiro)
+		derrotas = de
+	fimMetodo
+	
+	publico metodo getEmpates()
+		retorne empates
+	fimMetodo
+	
+	publico metodo setEmpates(em:inteiro)
+		empates = em
+	fimMetodo
+	

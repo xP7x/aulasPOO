@@ -1,0 +1,20 @@
+
+Classe Reptil estende Animal
+	privado corEscama: Caractere
+	
+	@sobrepor
+	publico metodo locomover()
+		escreva("Rastejando")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo alimentar()
+		escreva("comendo vegetais")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo emitirSom()
+		escreva("som de réptil")
+	fimMetodo
+FimClasse
+	

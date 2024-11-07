@@ -1,0 +1,12 @@
+
+classe Cachorro estende Mamifero
+
+	publico metodo enterrarOsso()
+		escreva("Enterrando o osso!")
+	fimMetodo
+	
+	
+	publico metodo abanarRabo()
+		escreva("abanando o rabo")
+	fimMetodo
+fimClasse

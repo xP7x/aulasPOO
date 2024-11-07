@@ -1,0 +1,26 @@
+
+classe Bolsista estende Aluno
+
+	//Atributos
+	privado bolsa: inteiro
+	
+	//Métodos
+	publico metodo renovarBolsa()
+	(...)
+	fimMetodo
+	
+	//Métodos Especiais
+	publico metodo getBolsa()
+	(...)
+	fimMetodo
+	
+	publico metodo setBolsa()
+	(...)
+	fimMetodo
+	
+	@sobrepor
+	publico metodo pagarMensalidade()
+	(...)
+	fimMetodo
+
+fimClasse

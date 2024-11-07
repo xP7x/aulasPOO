@@ -1,0 +1,10 @@
+
+classe abstrata Animal
+ 	protegido peso: real
+ 	protegido idade: inteiro
+ 	protegido membros: inteiro
+ 	
+ 	publico metodo abstrato locomover()
+ 	publico metodo abstrato alimentar()
+ 	publico metodo abstrato emitirSom()
+ fimclasse

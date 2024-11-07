@@ -1,0 +1,15 @@
+----------------------------------------------------Arquivo Interface-----------------------------------------
+
+interface Controlador
+	//Métodos Abstratos
+	publico abstrato Metodo ligar();
+	publico abstrato Metodo desligar();
+	publico abstrato Metodo abrirMenu();
+	publico abstrato Metodo fecharMenu();
+	publico abstrato Metodo maisVolume();
+	publico abstrato Metodo menosVolume();
+	publico abstrato Metodo ligarMudo();
+	publico abstrato Metodo play();
+	publico abstrato Metodo pause();
+FimInterface
+

@@ -1,0 +1,20 @@
+
+Classe Mamifero estende Animal
+	privado corPelo: Caractere
+	
+	@sobrepor
+	publico metodo locomover()
+		escreva("Correndo")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo alimentar()
+		escreva("Mamando")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo emitirSom()
+		escreva("som de Mamífero")
+	fimMetodo
+FimClasse
+	

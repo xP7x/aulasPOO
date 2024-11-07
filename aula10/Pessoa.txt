@@ -1,0 +1,46 @@
+
+classe Pessoa
+	
+	//Atributos
+	privado nome: Caractere
+	privado idade: inteiro
+	privado sexo : caractere
+	
+	//Método
+	
+	publico metodo fazerAniv()
+	(...)
+	fimMetodo
+	
+	//Métodos Especiais
+	
+	publico metodo getNome()
+	(...)
+	fimMetodo
+	
+	publico metodo setNome()
+	(...)
+	fimMetodo
+	
+	publico metodo getIdade()
+	(...)
+	fimMetodo
+	
+	publico metodo setIdade()
+	(...)
+	fimMetodo
+	
+	publico metodo getSexo()
+	(...)
+	fimMetodo
+	
+	publico metodo setSexo()
+	(...)
+	fimMetodo
+
+fimClasse
+
+	
+	
+
+	

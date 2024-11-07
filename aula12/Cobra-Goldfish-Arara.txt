@@ -1,0 +1,12 @@
+
+classe cobra estende Reptil 
+	//classePobre
+fimClasse
+
+classe Goldfish extends Peixe
+	//ClassePobre
+fim classe
+
+classe Arara extends Ave
+	//ClassePobre
+fim classe

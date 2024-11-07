@@ -1,0 +1,28 @@
+
+
+Classe Ave estende Animal
+	privado corPena: Caractere
+	
+	
+	publico metodo fazerNinho()
+		escreva("Fez um ninho")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo locomover()
+		escreva("Voando")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo alimentar()
+		escreva("comendo frutas")
+	fimMetodo
+	
+	@sobrepor
+	publico metodo emitirSom()
+		escreva("Som de ave")
+	fimMetodo
+FimClasse
+	
+
+

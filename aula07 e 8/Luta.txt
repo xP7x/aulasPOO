@@ -1,0 +1,100 @@
+------------------Novo Arquivo Classe -------------------
+
+classe Luta
+
+	//Atributos
+	
+	privado desafiado: Lutador
+	privado desafiante: Lutador
+	privado rounds: Inteiro
+	privado aprovada: lógico
+	
+	//Métodos
+	
+	public metodo marcarLuta(l1,l2 : Lutador)
+		se (l1.getCategoria() == l2.getCategoria())
+			e (l1 ! l2) então
+			aprovada = verdadeiro
+			desafiado = l1
+			desafiante = l2
+		senão
+			aprovada = falso
+			desafiado = nulo
+			desafiante = nulo
+	fimMetodo
+	
+	public metodo lutar()
+		se (aprovada)
+			desafiado.apresentar()
+			desafiante.apresentar()
+			vencedor = aleatório(0..2)
+			escolha(vencedor)
+				caso 0: //Empate
+					escreva("Empatou!")
+					desafiado.empatarLuta()
+					desafiante.empatarLuta()
+				
+				caso 1: //Ganhou Desafiado
+					escreva(" " desafiado.getNome() " ganhou") 
+					desafiado.ganharLuta()
+					desafiante.perderLutar()
+					
+				caso 2: //Ganhou Desafiante
+					escreva(" " desafiante.getNome() " ganhou")
+					desafiado.perderLuta()
+					desafiante.ganharLuta()
+			fimEscolha
+		senão
+			escreva("Luta não pode acontecer")
+		fim Se
+	fimMetodo
+	
+	//Métodos Especiais 
+	
+	//---------------------------------	
+	//publico metodo construtor(
+	//	setDesafiado(dd)	     do: Caractere
+	//	setDesafiante(de)    de: Caractere
+	//	setRounds(rd)	     rd: Inteiro
+	//	setAprovada(ap)	     ap: lógico
+	//	)
+	//fimMetodo
+	//------------------------
+	
+	public metodo getDesafiado()
+		retorne desafiado
+	fimMetodo 
+	
+	public metodo setDesafiado(dd: Lutador)
+		desafiado = dd
+	fimMetodo
+	
+	public metodo getDesafiante()
+		retorne desafiante
+	fimMetodo
+	
+	public metodo setDesafiante(de:Lutador)
+		desafiante = de 
+	fimMetodo
+	
+	public metodo getRounds()
+		retorne rounds
+	fimMetodo
+	
+	public metodo setRounds(rd:inteiro)
+		rounds = rd
+	fimMetodo
+	
+	public metodo getAprovada()
+		retorne aprovada
+	fimMetodo
+	
+	public metodo setAprovada(ap:lógico)
+		aprovada = ap
+	fimMetodo	
+	
+	
+	
+	
+	
+	
